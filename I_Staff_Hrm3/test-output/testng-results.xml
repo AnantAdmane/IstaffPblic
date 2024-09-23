@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="15" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T07:51:58Z" name="Suite" finished-at="2024-09-23T07:53:46Z" duration-ms="107766">
+    <groups>
+      <group name="systemTest">
+        <method signature="AssignProjectToEmployeeTest.modifyEmpDetailsTest()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" name="modifyEmpDetailsTest" class="com.bpl.hrm.employeetest.AssignProjectToEmployeeTest"/>
+        <method signature="BearerTokenGenerationTest.bearerTokenGeneration()[pri:0, instance:com.bpl.hrm.settingstest.BearerTokenGenerationTest@5c80cf32]" name="bearerTokenGeneration" class="com.bpl.hrm.settingstest.BearerTokenGenerationTest"/>
+        <method signature="UpdatePayrollTest.updatePayroll()[pri:0, instance:com.bpl.hrm.payrolltest.UpdatePayrollTest@4d1bf319]" name="updatePayroll" class="com.bpl.hrm.payrolltest.UpdatePayrollTest"/>
+      </group> <!-- systemTest -->
+      <group name="integrationTest">
+        <method signature="AssignProjectToEmployeeTest.assignProjectToEmployee()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" name="assignProjectToEmployee" class="com.bpl.hrm.employeetest.AssignProjectToEmployeeTest"/>
+        <method signature="DownloadFileFromResourcesTest.downloadExcelFile()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@7d900ecf]" name="downloadExcelFile" class="com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest"/>
+      </group> <!-- integrationTest -->
+      <group name="smokeTest">
+        <method signature="ProjectsTest.deleteProject()[pri:0, instance:com.bpl.hrm.projectstest.ProjectsTest@6f53b8a]" name="deleteProject" class="com.bpl.hrm.projectstest.ProjectsTest"/>
+        <method signature="ProjectsTest.exportProjectDetails()[pri:0, instance:com.bpl.hrm.projectstest.ProjectsTest@6f53b8a]" name="exportProjectDetails" class="com.bpl.hrm.projectstest.ProjectsTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2024-09-23T07:51:58Z" name="Test" finished-at="2024-09-23T07:53:46Z" duration-ms="107766">
+      <class name="com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@7d900ecf]" started-at="2024-09-23T07:53:32Z" name="configBC" finished-at="2024-09-23T07:53:34Z" duration-ms="2427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@7d900ecf]" started-at="2024-09-23T07:53:34Z" name="configBM" finished-at="2024-09-23T07:53:36Z" duration-ms="1906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="downloadExcelFile()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@7d900ecf]" started-at="2024-09-23T07:53:36Z" name="downloadExcelFile" finished-at="2024-09-23T07:53:38Z" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadExcelFile -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@7d900ecf]" started-at="2024-09-23T07:53:38Z" name="configAM" finished-at="2024-09-23T07:53:44Z" duration-ms="6934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest@7d900ecf]" started-at="2024-09-23T07:53:44Z" name="configAC" finished-at="2024-09-23T07:53:46Z" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.bpl.hrm.resourcestest.DownloadFileFromResourcesTest -->
+      <class name="com.bpl.hrm.settingstest.BearerTokenGenerationTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bpl.hrm.settingstest.BearerTokenGenerationTest@5c80cf32]" started-at="2024-09-23T07:53:17Z" name="configBC" finished-at="2024-09-23T07:53:20Z" duration-ms="2445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bpl.hrm.settingstest.BearerTokenGenerationTest@5c80cf32]" started-at="2024-09-23T07:53:20Z" name="configBM" finished-at="2024-09-23T07:53:23Z" duration-ms="3463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="bearerTokenGeneration()[pri:0, instance:com.bpl.hrm.settingstest.BearerTokenGenerationTest@5c80cf32]" started-at="2024-09-23T07:53:23Z" name="bearerTokenGeneration" finished-at="2024-09-23T07:53:24Z" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bearerTokenGeneration -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.bpl.hrm.settingstest.BearerTokenGenerationTest@5c80cf32]" started-at="2024-09-23T07:53:24Z" name="configAM" finished-at="2024-09-23T07:53:31Z" duration-ms="7415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bpl.hrm.settingstest.BearerTokenGenerationTest@5c80cf32]" started-at="2024-09-23T07:53:31Z" name="configAC" finished-at="2024-09-23T07:53:32Z" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.bpl.hrm.settingstest.BearerTokenGenerationTest -->
+      <class name="com.bpl.hrm.projectstest.ProjectsTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bpl.hrm.projectstest.ProjectsTest@6f53b8a]" started-at="2024-09-23T07:52:49Z" name="configBC" finished-at="2024-09-23T07:52:53Z" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bpl.hrm.projectstest.ProjectsTest@6f53b8a]" started-at="2024-09-23T07:52:53Z" name="configBM" finished-at="2024-09-23T07:52:56Z" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="deleteProject()[pri:0, instance:com.bpl.hrm.projectstest.ProjectsTest@6f53b8a]" started-at="2024-09-23T07:52:56Z" name="deleteProject" finished-at="2024-09-23T07:53:02Z" duration-ms="5103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.bpl.hrm.projectstest.ProjectsTest@6f53b8a]" started-at="2024-09-23T07:53:02Z" name="configAM" finished-at="2024-09-23T07:53:08Z" duration-ms="6444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bpl.hrm.projectstest.ProjectsTest@6f53b8a]" started-at="2024-09-23T07:53:08Z" name="configBM" finished-at="2024-09-23T07:53:09Z" duration-ms="1342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="exportProjectDetails()[pri:0, instance:com.bpl.hrm.projectstest.ProjectsTest@6f53b8a]" started-at="2024-09-23T07:53:09Z" name="exportProjectDetails" finished-at="2024-09-23T07:53:10Z" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportProjectDetails -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.bpl.hrm.projectstest.ProjectsTest@6f53b8a]" started-at="2024-09-23T07:53:10Z" name="configAM" finished-at="2024-09-23T07:53:17Z" duration-ms="6204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bpl.hrm.projectstest.ProjectsTest@6f53b8a]" started-at="2024-09-23T07:53:17Z" name="configAC" finished-at="2024-09-23T07:53:17Z" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.bpl.hrm.projectstest.ProjectsTest -->
+      <class name="com.bpl.hrm.employeetest.AssignProjectToEmployeeTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" started-at="2024-09-23T07:51:58Z" name="configBS" finished-at="2024-09-23T07:51:58Z" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" started-at="2024-09-23T07:51:58Z" name="configBC" finished-at="2024-09-23T07:52:01Z" duration-ms="3320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" started-at="2024-09-23T07:52:01Z" name="configBM" finished-at="2024-09-23T07:52:03Z" duration-ms="1804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="assignProjectToEmployee()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" started-at="2024-09-23T07:52:03Z" name="assignProjectToEmployee" finished-at="2024-09-23T07:52:10Z" duration-ms="7108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignProjectToEmployee -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" started-at="2024-09-23T07:52:10Z" name="configAM" finished-at="2024-09-23T07:52:16Z" duration-ms="6155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" started-at="2024-09-23T07:52:16Z" name="configBM" finished-at="2024-09-23T07:52:18Z" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="modifyEmpDetailsTest()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" started-at="2024-09-23T07:52:18Z" name="modifyEmpDetailsTest" finished-at="2024-09-23T07:52:24Z" duration-ms="6419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyEmpDetailsTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" started-at="2024-09-23T07:52:24Z" name="configAM" finished-at="2024-09-23T07:52:31Z" duration-ms="6590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" started-at="2024-09-23T07:52:31Z" name="configAC" finished-at="2024-09-23T07:52:31Z" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.bpl.hrm.employeetest.AssignProjectToEmployeeTest@6c4906d3]" started-at="2024-09-23T07:53:46Z" name="configAS" finished-at="2024-09-23T07:53:46Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.bpl.hrm.employeetest.AssignProjectToEmployeeTest -->
+      <class name="com.bpl.hrm.payrolltest.UpdatePayrollTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bpl.hrm.payrolltest.UpdatePayrollTest@4d1bf319]" started-at="2024-09-23T07:52:31Z" name="configBC" finished-at="2024-09-23T07:52:34Z" duration-ms="2612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bpl.hrm.payrolltest.UpdatePayrollTest@4d1bf319]" started-at="2024-09-23T07:52:34Z" name="configBM" finished-at="2024-09-23T07:52:35Z" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="updatePayroll()[pri:0, instance:com.bpl.hrm.payrolltest.UpdatePayrollTest@4d1bf319]" started-at="2024-09-23T07:52:35Z" name="updatePayroll" finished-at="2024-09-23T07:52:41Z" duration-ms="5662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePayroll -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.bpl.hrm.payrolltest.UpdatePayrollTest@4d1bf319]" started-at="2024-09-23T07:52:41Z" name="configAM" finished-at="2024-09-23T07:52:47Z" duration-ms="6553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bpl.hrm.payrolltest.UpdatePayrollTest@4d1bf319]" started-at="2024-09-23T07:52:47Z" name="configAC" finished-at="2024-09-23T07:52:49Z" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.bpl.hrm.payrolltest.UpdatePayrollTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
