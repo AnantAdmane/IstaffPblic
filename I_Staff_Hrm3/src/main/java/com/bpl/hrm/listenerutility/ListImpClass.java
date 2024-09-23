@@ -28,8 +28,9 @@ import com.bpl.hrm.webdriverutility.UtilityClassObject;
  * @author Anant
  */
 public class ListImpClass implements ITestListener, ISuiteListener {
-	public ExtentReports report;
+	public static ExtentReports report;
 	public static ExtentTest test;
+	public ExtentSparkReporter spark;
 
 	@Override
 	/**
